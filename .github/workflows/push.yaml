@@ -61,6 +61,6 @@ jobs:
           sleep 30
           minikube service list
           echo "------------------service details------------------"
-          kubectl get service service2-service
+          kubectl get service service-service2
           echo "------------------opening the service------------------"
           curl $(minikube service service2-service --url)/
